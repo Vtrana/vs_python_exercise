@@ -9,5 +9,5 @@ print(df.head())
 df["lenght"]=df["loc.end"]-df["loc.start"]   
 print(df.head())
 
-# Save file with hew data
+# Save file with new data
 df.to_csv('brca_cnvs_tcga-1_new.csv', index=False)
